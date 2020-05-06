@@ -1,0 +1,292 @@
+.full-width {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* nav start */
+
+#nav {
+    background-color: #8AC9D0;
+}
+
+div.logo {
+    text-align: center;
+}
+
+div.nav {
+    text-align: center;
+}
+
+div.nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+div.nav ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 40px;
+    letter-spacing: 1px;
+    transition: 0.8s;
+}
+
+div.nav ul a:hover {
+    color: orange;
+    transition: 0.8s;
+}
+
+
+/*header start*/
+
+#header {
+    background: #aaa url(images/header.jpg) left top no-repeat;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+}
+
+#overlay {
+    background-color: #aaa;
+    padding: 70px 0;
+}
+
+#header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#header h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#header #ip {
+    color: bisque;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#header p {
+    font-size: 1.3em;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/* interduction  start */
+
+#interduction {
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2.title {
+    font-size: 1.6em;
+    border: 4px solid #8AC9D0;
+    width: 250px;
+    margin: auto;
+    padding: 6px 0;
+    margin-top: 50px;
+}
+
+p.article {
+    padding: 0 40px;
+    margin-top: 50px;
+    line-height: 1.6em;
+}
+
+#interduction-gallery .gallery {
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+#interduction-gallery .gallery img {
+    height: 100%;
+}
+
+
+/*line-up start*/
+
+#line-up {
+    background: #aaa url('images/header_lineup.jpg') fixed;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#line-up h2.cover-title {
+    color: #8AC9D0;
+    font-size: 2.5em;
+}
+
+#line-up .cover-title span {
+    border-bottom: 10px solid #8AC9D0;
+    line-height: 100px;
+}
+
+
+/* line-up unit */
+
+p.subtitle {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.7em;
+}
+
+.unit_item {
+    width: calc(50% - 41px);
+    padding: 20px;
+    float: left;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.card a {
+    color: #666;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.card a:hover {
+    color: #8AC9D0;
+    transition: 0.8s;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+/*map start*/
+
+#map {
+    background: #aaa url('images/header_map.jpg') fixed;
+    background-size: cover;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#map h2.cover-title {
+    color: #8AC9D0;
+    font-size: 2.5em;
+}
+
+#map .cover-title span {
+    border-bottom: 10px solid #8AC9D0;
+    line-height: 130px;
+}
+
+#map img {
+    width: 100%;
+}
+
+
+/*timetable start*/
+
+#timetable {
+    background: #aaa url('images/header_timetable.jpg') fixed;
+    background-size: cover;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#timetable h2.cover-title {
+    color: #8AC9D0;
+    font-size: 2.5em;
+}
+
+#timetable .cover-title span {
+    border-bottom: 10px solid #8AC9D0;
+    line-height: 130px;
+}
+
+#timetable img {
+    width: 100%;
+}
+
+
+/*traffic start*/
+
+#traffic {
+    background: #aaa url('images/header_traffic.jpg') fixed;
+    background-size: cover;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#traffic h2.cover-title {
+    color: #8AC9D0;
+    font-size: 2.5em;
+}
+
+#traffic .cover-title span {
+    border-bottom: 10px solid #8AC9D0;
+    line-height: 130px;
+}
+
+#traffic img {
+    width: 100%;
+}
+
+iframe {
+    margin: 20px 0 10px 0;
+}
+
+
+/* footer start */
+
+#footer {
+    background-color: #666;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.connect a {
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+
+.connect a:hover {
+    color: #8AC9D0;
+    font-size: 2.5em;
+    transition: 0.5s;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 18px;
+    line-height: 45px;
+}
+
+#top {
+    color: #8AC9D0;
+}
